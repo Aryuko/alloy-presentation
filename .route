@@ -1,1 +1,1 @@
-{"timestamp":1442420016,"code":"switch ($_VIEW) {default:$_VIEW='404';include('alloy\/default\/welcome.php');break;case '_view':$path=str_replace('\/_view\/','',$_SERVER['REQUEST_URI']);include($path);break;case 'home': case '\/': case '': include('alloy\/default\/welcome.php');break;}"}
+{"timestamp":1442421030,"code":"switch ($_VIEW) {default:$_VIEW='404';include('alloy\/default\/welcome.php');break;case '_view':$path=str_replace('\/_view\/','',$_SERVER['REQUEST_URI']);include($path);break;case 'home': case '\/': case '': include('routes\/master.php');break;}"}
