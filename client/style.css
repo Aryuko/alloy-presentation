@@ -10,6 +10,7 @@ html
 }
 body
 {
+    background-color: #607D8B;
     height: 100%;
     color: white;
 }
@@ -54,8 +55,8 @@ body
 }
 #content
 {
+    margin: 20px;
     height: 100%;
-    background-color: #607D8B;
     flex-grow: 1;
     flex-shrink: 1;
 }

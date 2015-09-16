@@ -15,6 +15,10 @@
         {
             "alias" : "what",
             "target": "routes/what.php"
+        },
+        {
+            "alias" : "getstarted",
+            "target": "routes/getstarted.php"
         }
     ]
 }
