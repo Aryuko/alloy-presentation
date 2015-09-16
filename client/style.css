@@ -2,7 +2,6 @@
 {
     margin: 0;
     padding: 0;
-    color: white;
     font-family: Roboto;
 }
 html
@@ -12,6 +11,7 @@ html
 body
 {
     height: 100%;
+    color: white;
 }
 #nav
 {
@@ -23,7 +23,7 @@ body
 	justify-content: center;
 	align-content: center;
 	overflow: hidden;
-	background: #414141;
+	background: #455A64;
 	color: rgba(0,0,0,0.4);
 
 	flex-wrap: wrap;
@@ -40,6 +40,11 @@ body
 	text-align: center;
 	line-height: 50px;
     text-decoration: none;
+	color: rgba(255,255,255,0.7);
+}
+#nav a:hover
+{
+    
 }
 #wrapper
 {
@@ -50,7 +55,7 @@ body
 #content
 {
     height: 100%;
-    background-color: #56b8d0;
+    background-color: #607D8B;
     flex-grow: 1;
     flex-shrink: 1;
 }

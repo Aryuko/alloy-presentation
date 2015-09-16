@@ -6,7 +6,15 @@
     "routes" : [
         {
             "alias" : ["home","/",""],
-            "target": "routes/master.php"
+            "target": "routes/home.php"
+        },
+        {
+            "alias" : ["docs","documentation"],
+            "target": "routes/docs.php"
+        },
+        {
+            "alias" : "what",
+            "target": "routes/what.php"
         }
     ]
 }
