@@ -42,10 +42,11 @@ body
 	line-height: 50px;
     text-decoration: none;
 	color: rgba(255,255,255,0.7);
+    transition: color 0.2s ease-in;
 }
 #nav a:hover
 {
-    
+    color: rgba(255, 255, 255, 1);
 }
 #wrapper
 {
@@ -55,6 +56,7 @@ body
 }
 #content
 {
+    position: relative;
     margin: 60px auto;
     width: 50%;
     height: 100%;
