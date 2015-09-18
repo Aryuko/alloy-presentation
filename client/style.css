@@ -65,11 +65,47 @@ body
     
 }
 #content *
-{
+{    
+    -moz-animation-name: slideUp;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.4s;
+    
+    -webkit-animation-name: slideUp;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.4s;
+    
     animation-name: slideUp;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 0.4s;
+}
+@-moz-keyframes slideUp
+{
+    0%
+    {
+        -moz-transform: translateY(50px);
+        opacity: 0;
+    }
+    100%
+    {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes slideUp
+{
+    0%
+    {
+        -webkit-transform: translateY(50px);
+        opacity: 0;
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
 }
 @keyframes slideUp
 {
