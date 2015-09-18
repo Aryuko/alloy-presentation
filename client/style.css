@@ -63,10 +63,13 @@ body
     flex-grow: 1;
     flex-shrink: 1;
     
+}
+#content *
+{
     animation-name: slideUp;
     animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-duration: 0.4s;
 }
 @keyframes slideUp
 {
