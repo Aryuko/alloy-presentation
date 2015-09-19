@@ -1,3 +1,9 @@
+/*
+*	Primary Color:		#607D8B
+*	Dark Primary Color:	#455A64
+*	Deep Orange:		#FF5722
+*/
+
 *
 {
     margin: 0;
@@ -80,6 +86,10 @@ body
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 0.4s;
+}
+#content a
+{
+	color: #FF5722;
 }
 @-moz-keyframes slideUp
 {
